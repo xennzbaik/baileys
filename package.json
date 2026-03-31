@@ -1,0 +1,34 @@
+{
+  "name": "baileys",
+  "version": "10.0.0",
+  "description": "Ultimate WhatsApp Bot Library - Auto Join, Mass DM, Multi-Session, Anti-Ban, Backup, Scheduler, Webhook",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.15",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.6.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7",
+    "sharp": "^0.33.5",
+    "ws": "^8.18.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "author": "aqeell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqeell/baileys.git"
+  }
+}

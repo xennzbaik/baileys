@@ -1,0 +1,52 @@
+{
+  "ownerNumber": "628xxxxxxxxx@s.whatsapp.net",
+  "botName": "AqeellBot",
+  "prefix": ".",
+  "sessionDir": "./sessions",
+  "mediaDir": "./media",
+  "backupDir": "./backups",
+  "autoRead": true,
+  "pairingCode": true,
+  "maxRetries": 10,
+  "autoJoinChannel": {
+    "enabled": false,
+    "channelInvite": "",
+    "retryOnFail": true,
+    "retryCount": 5
+  },
+  "multiSession": {
+    "enabled": false,
+    "numbers": []
+  },
+  "autoBackup": {
+    "enabled": true,
+    "intervalHours": 6,
+    "telegramBotToken": "",
+    "telegramChatId": ""
+  },
+  "scheduler": {
+    "enabled": false,
+    "jobs": []
+  },
+  "webhook": {
+    "enabled": false,
+    "url": "",
+    "secret": ""
+  },
+  "autoReplyDB": {
+    "enabled": true,
+    "dbPath": "./replies.db"
+  },
+  "mediaCompressor": {
+    "enabled": true,
+    "imageQuality": 80,
+    "videoQuality": 70
+  },
+  "antiBan": {
+    "enabled": true,
+    "minDelay": 1000,
+    "maxDelay": 3000,
+    "maxMessagesPerMinute": 30,
+    "adaptiveMode": true
+  }
+}
